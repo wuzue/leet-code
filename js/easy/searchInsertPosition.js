@@ -1,3 +1,12 @@
+/*
+
+35. Search Insert Position
+
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You must write an algorithm with O(log n) runtime complexity.
+
+*/
+
 function searchInsert(nums, target) {//target = 5
 
   let left = 0; //inicial, começa valendo 0
@@ -19,7 +28,7 @@ function searchInsert(nums, target) {//target = 5
   return left;
 }
 /*
-MAIS EXPLICAÇÕES PQ ISSO AQUI TA UM CU PRA ENTENDER
+MAIS EXPLICAÇÕES PQ ISSO AQUI TAVA UM CU PRA ENTENDER
 
 A variável left é usada para manter o índice do início da faixa de pesquisa atual. 
 Ela é inicializada com o valor de 0, o que significa que a pesquisa começa no primeiro elemento do array nums.
