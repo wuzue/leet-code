@@ -9,16 +9,8 @@
  * @return {number}
  */
 var findCenter = function(edges) {
-  let resArr = []
-  let res = []
-  let toArr = edges.toString().split(' ')
-  for (let i = 0; i < edges.length; i++){
-    resArr.push(toArr[i])
-    if(resArr.includes(toArr[i])){
-      res.push(toArr[i])
-    }
-  }
-  console.log(res);
-};
+  console.log(edges[0][0]);
+  console.log(edges[1][1]);
+}
 
-findCenter([[1,2], [5,1], [1,3], [1,4]])
+findCenter([[1,2],[2,3],[4,2]])
